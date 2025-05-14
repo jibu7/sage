@@ -16,10 +16,15 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@lib/*": ["./lib/*"]
-    }
+      "@lib/*": ["./lib/*"],
+      "locales/*": ["src/locales/*"]
+    },
+    "types": ["vite/client"]
   },
-  "include": ["src", "lib", "vite-env.d.ts"],
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
   "exclude": ["node_nodules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

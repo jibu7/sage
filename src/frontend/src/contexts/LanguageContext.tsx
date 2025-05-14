@@ -150,7 +150,13 @@ export function LanguageContext({
 }
 
 export async function activateLocale(locale: string) {
-  const { messages } = await import(`../locales/${locale}/messages.ts`);
-  i18n.load(locale, messages);
-  i18n.activate(locale);
+  try {
+    // Import using default export for ESM compatibility
+    const messages = (await import(`../locales/${locale}/messages.js`)).default;
+    i18n.load(locale, messages);
+    i18n.activate(locale);
+  } catch (error) {
+    console.error('Failed to load translations for locale:', locale, error);
+    throw error;
+  }
 }

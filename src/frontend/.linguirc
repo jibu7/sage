@@ -44,7 +44,7 @@
         "include": ["src", "lib"],
         "exclude": ["**/node_modules/**", "./dist/**"]
     }],
-    "format": "po",
+    "format": "minimal",
     "orderBy": "origin",
     "sourceLocale": "en",
     "pseudoLocale": "pseudo-LOCALE",

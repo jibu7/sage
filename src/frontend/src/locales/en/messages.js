@@ -1,0 +1,3 @@
+/*eslint-disable*/
+// Generated ESM version of the messages file for Vite compatibility
+export default JSON.parse("{\"qwCNwv\":[\"Error rendering component\"],\"kH8meY\":[\"An error occurred while rendering this component. Refer to the console for more information.\"],\"MHrjPM\":[\"Title\"],\"bR26mb\":[\"Error while scanning\"],\"fvJQqd\":[\"Error while stopping\"],\"/Snx90\":[\"Start scanning by selecting a camera and pressing the play button.\"],\"yFRXH8\":[\"Stop scanning\"],\"m3BKG+\":[\"Start scanning\"],\"ap+FLU\":[\"Barcode\"],\"I+FvbD\":[\"Scan\"],\"XlKBRl\":[\"Camera Input\"],\"n89Qe0\":[\"Scanner Input\"],\"Hl6ptb\":[\"Barcode Data\"]}");
